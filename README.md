@@ -1,4 +1,4 @@
-![Expense Tracker](./root/images/as.png)
+![Expense Tracker](public/as.png)
 
 
 This is a react web application designed to help users track their income and expenses. The app enables users to add transactions, categorize them as income or expense, and see their balance over time.
