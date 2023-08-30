@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+![Expense Tracker](./root/images/as.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This is a react web application designed to help users track their income and expenses. The app enables users to add transactions, categorize them as income or expense, and see their balance over time.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Transaction Management: Add and remove transactions to track income and expenses.
+- Balance Calculation: Real-time calculation of the balance based on user transactions.
+- Income and Expense Summaries: Display summaries of total income and expenses.
+- User-Friendly Design: Intuitive interface for adding and reviewing transactions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## JavaScript Expertise
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In developing this expense tracker app, I've showcased my proficiency in various aspects of JavaScript programming:
 
-### `npm run build`
+1. **Context API and State Management:**
+   I've implemented the Context API to manage the global state of the app. This approach centralizes the state management, making it easier to share data and actions across components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Use of Reducers and Actions:**
+   The app employs reducers and actions to modify the state. I've showcased my understanding of the unidirectional data flow principle by managing state changes through well-defined actions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Asynchronous Operations:**
+   My use of the Fetch API to interact with the global state demonstrates my grasp of asynchronous programming concepts. I effectively handle the addition and removal of transactions asynchronously.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Functional Components and Hooks:**
+   The app exclusively uses functional components and leverages hooks like `useState`, `useContext`, and `useReducer`. This emphasizes my familiarity with modern React practices.
 
-### `npm run eject`
+5. **Conditional Rendering and Mapping:**
+   I've employed conditional rendering to display positive and negative transactions differently, showcasing my ability to manage dynamic UI elements. Additionally, I've demonstrated my competence in mapping arrays of data to create lists of transactions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. **Data Manipulation and Formatting:**
+   The app features functions to format currency values, reflecting my understanding of data manipulation and formatting techniques.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Credits
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+None
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+None
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributors
 
-### Analyzing the Bundle Size
+None
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## How to Use
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Clone or download the project to your local machine.
+2. Install any required dependencies using `npm install`.
+3. Launch the project by running `npm start` in the project directory.
+4. Use the web interface to add income and expense transactions.
+5. Observe the real-time balance and transaction history.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Documentation 
 
-### Deployment
+None
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository using: `git clone [repository URL]`
+2. Navigate to the project directory: `cd expense-tracker-app`
+3. Install dependencies: `npm install`
+
+---
+
+## Donations
+
+None
