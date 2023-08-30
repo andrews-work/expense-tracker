@@ -77,6 +77,7 @@ None
 1. Clone the repository using: `git clone [repository URL]`
 2. Navigate to the project directory: `cd expense-tracker-app`
 3. Install dependencies: `npm install`
+4. start react app `npm start`
 
 ---
 
